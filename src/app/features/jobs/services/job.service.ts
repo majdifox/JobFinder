@@ -19,7 +19,7 @@ export class JobService {
     constructor(private http: HttpClient) { }
 
     searchJobs(keywords: string, location: string, page: number = 1, resultsPerPage: number = 10): Observable<JobSearchResult> {
-        const country = 'us'; // UK for English results
+        const country = 'gb'; // UK for English results
         const url = `${this.baseUrl}/jobs/${country}/search/${page}`;
 
         let params = new HttpParams()
