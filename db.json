@@ -6,8 +6,41 @@
       "lastName": "Doe",
       "email": "john@example.com",
       "password": "password123"
+    },
+    {
+      "id": 2,
+      "lastName": "mehdi",
+      "firstName": "majdi",
+      "email": "majdi@gmail.com",
+      "password": "majdi@gmail.com"
     }
   ],
-  "favoritesOffers": [],
-  "applications": []
+  "favoritesOffers": [
+    {
+      "userId": 2,
+      "offerId": "5639941148",
+      "title": "Property Accounting Controller",
+      "company": "Liberty Military Housing",
+      "location": "San Diego, San Diego County",
+      "url": "https://www.adzuna.com/details/5639941148?utm_medium=api&utm_source=11880c1d",
+      "apiSource": "adzuna",
+      "dateAdded": "2026-02-21T16:58:51.537Z",
+      "id": 1
+    }
+  ],
+  "applications": [
+    {
+      "userId": 2,
+      "offerId": "5639941148",
+      "apiSource": "adzuna",
+      "title": "Property Accounting Controller",
+      "company": "Liberty Military Housing",
+      "location": "San Diego, San Diego County",
+      "url": "https://www.adzuna.com/details/5639941148?utm_medium=api&utm_source=11880c1d",
+      "status": "en_attente",
+      "notes": "",
+      "dateAdded": "2026-02-21T16:58:56.161Z",
+      "id": 1
+    }
+  ]
 }
