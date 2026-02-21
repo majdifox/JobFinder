@@ -6,4 +6,4 @@ export interface User {
   password?: string; // only used when sending/validating; never store it in browser
 }
 
-export type SessionUser = Omit<User, 'password'>;
+export type SessionUser = Omit<User, 'password'>; //"Take the User interface, and CREATE A NEW TYPE that has everything EXCEPT the password property"
